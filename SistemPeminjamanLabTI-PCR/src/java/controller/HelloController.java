@@ -41,7 +41,7 @@ protected ModelAndView onSubmit(
 
         Laboran name = (Laboran) command;
         ModelAndView mv = new ModelAndView(getSuccessView());
-        mv.addObject("helloMessage", helloService.sayHello(name.getValue(),name.getUmur()));
+        mv.addObject("helloMessage", helloService.sayHello(name.getNama(),name.getEmail(),name.getTtl(),name.getNohp(),name.getLab()));
         
         return mv;
 }

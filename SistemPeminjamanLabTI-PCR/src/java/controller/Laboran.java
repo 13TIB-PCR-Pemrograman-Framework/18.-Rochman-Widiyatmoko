@@ -10,21 +10,45 @@ package controller;
  * @author LabGSG
  */
 public class Laboran {
-    private String value, umur;
+    private String nama, email, ttl, nohp, lab;
 
-    public String getUmur() {
-        return umur;
+    public String getNama() {
+        return nama;
     }
 
-    public void setUmur(String umur) {
-        this.umur = umur;
+    public void setNama(String nama) {
+        this.nama = nama;
     }
 
-    public String getValue() {
-        return value;
+    public String getEmail() {
+        return email;
     }
 
-    public void setValue(String value) {
-        this.value = value;
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getTtl() {
+        return ttl;
+    }
+
+    public void setTtl(String ttl) {
+        this.ttl = ttl;
+    }
+
+    public String getNohp() {
+        return nohp;
+    }
+
+    public void setNohp(String nohp) {
+        this.nohp = nohp;
+    }
+
+    public String getLab() {
+        return lab;
+    }
+
+    public void setLab(String lab) {
+        this.lab = lab;
     }
 }

@@ -12,17 +12,29 @@
         <title>read : Enter your name</title>
     </head>
     <body>
-        <h1> Enter Service </h1>
+        <h1> Data Diri Laboran </h1>
         <spring:nestedPath path="name">
     <form action="" method="post">
         Name:
-        <spring:bind path="value">
+        <spring:bind path="nama">
             <input type="text" name="${status.expression}" value="${status.value}"> 
         </spring:bind> <br>
-        Age:
-        <spring:bind path="umur">
+        Email:
+        <spring:bind path="email">
             <input type="text" name="${status.expression}" value="${status.value}"> 
-        </spring:bind>
+        </spring:bind><br>
+            TTL :
+        <spring:bind path="email">
+            <input type="text" name="${status.expression}" value="${status.value}"> 
+        </spring:bind><br>
+            No HP :
+        <spring:bind path="email">
+            <input type="text" name="${status.expression}" value="${status.value}"> 
+        </spring:bind><br>
+            Lab:
+        <spring:bind path="email">
+            <input type="text" name="${status.expression}" value="${status.value}"> 
+        </spring:bind><br>
         <input type="submit" value="OK">
     </form>
 </spring:nestedPath>
