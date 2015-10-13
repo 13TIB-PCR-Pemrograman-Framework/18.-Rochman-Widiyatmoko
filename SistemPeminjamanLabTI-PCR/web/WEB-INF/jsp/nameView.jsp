@@ -24,15 +24,15 @@
             <input type="text" name="${status.expression}" value="${status.value}"> 
         </spring:bind><br>
             TTL :
-        <spring:bind path="email">
+        <spring:bind path="ttl">
             <input type="text" name="${status.expression}" value="${status.value}"> 
         </spring:bind><br>
             No HP :
-        <spring:bind path="email">
+        <spring:bind path="nohp">
             <input type="text" name="${status.expression}" value="${status.value}"> 
         </spring:bind><br>
             Lab:
-        <spring:bind path="email">
+        <spring:bind path="lab">
             <input type="text" name="${status.expression}" value="${status.value}"> 
         </spring:bind><br>
         <input type="submit" value="OK">

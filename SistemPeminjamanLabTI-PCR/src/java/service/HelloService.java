@@ -11,7 +11,7 @@ package service;
  */
 public class HelloService {
     public static String sayHello(String nama,String email,String ttl,String nohp, String lab) {
-        String ket="Nama : " + nama + "<br> Email : " + email + "<br> TTL : "+ttl+"<br> No HP : "+nohp+" Lab : "+lab;
+        String ket="Nama : " + nama + "<br> Email : " + email + "<br> TTL : "+ttl+"<br> No HP : "+nohp+"<br> Lab : "+lab+"";
         return ket;
     }
 }
